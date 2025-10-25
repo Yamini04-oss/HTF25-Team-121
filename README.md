@@ -64,5 +64,6 @@ In this Readme, you will find a guide on how to fork this Repository, add files 
  <li>Wait a few moments; your PR is now submitted.</li>
 </ul>
 </details>
+</details>
 
 ## Thanks for participating!

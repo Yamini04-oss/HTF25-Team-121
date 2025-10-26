@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>HTF25-Team-121 - Hospital Management (Demo)</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width:900px; margin:20px auto; padding:0 16px; }
+    form { margin-bottom: 16px; padding:12px; border:1px solid #ddd; }
+    input, select { display:block; margin:6px 0 12px; padding:8px; width:100%; max-width:400px; }
+    .list { margin-top:12px; }
+    .card { border:1px solid #eee; padding:8px; margin-bottom:8px; }
+  </style>
+</head>
+<body>
+  <h1>Hospital Management — Demo</h1>
+
+  <section>
+    <h2>Add Patient</h2>
+    <form id="patientForm">
+      <input name="name" placeholder="Full name" required />
+      <input name="age" type="number" placeholder="Age" />
+      <input name="gender" placeholder="Gender" />
+      <input name="contact" placeholder="Contact" />
+      <input name="address" placeholder="Address" />
+      <button type="submit">Add Patient</button>
+    </form>
+
+    <div>
+      <h3>Patients</h3>
+      <div id="patientsList" class="list"></div>
+    </div>
+  </section>
+
+  <hr />
+
+  <section>
+    <h2>Add Doctor</h2>
+    <form id="doctorForm">
+      <input name="name" placeholder="Full name" required />
+      <input name="specialty" placeholder="Specialty" />
+      <input name="contact" placeholder="Contact" />
+      <input name="availability" placeholder="Availability (e.g., Mon-Fri 9-5)" />
+      <button type="submit">Add Doctor</button>
+    </form>
+
+    <div>
+      <h3>Doctors</h3>
+      <div id="doctorsList" class="list"></div>
+    </div>
+  </section>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>
